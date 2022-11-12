@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     font-family: 'Sono', sans-serif;
 }
 
@@ -15,10 +16,27 @@ h2{
     width: 40%;
     float: left;
     margin-left: 5%;
+    padding: 2%;
 
 }
 .half-width img{
-    width: 100%;
+    width: 68%;
+}
 
-
+.background{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    font-size: small;
+    background-color: orange;
+    padding: 10px 20px;
+     border-radius: 10%;
+     color: white;
+     font-weight: 700%;
 }
